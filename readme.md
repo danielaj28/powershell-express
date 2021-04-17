@@ -52,14 +52,14 @@
 
 <!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
-As part of my path on continuous integration, I had powershell scripts that:
+As part of my journey on continuous integration, I had powershell scripts that:
 
-1. Pulls from a git repo
+1. Pull from a git repo
 2. Updates dependencies
-3. Creates a docker image and container
+3. Create docker images and containers
 4. Swaps out the live containers
 
-I wanted to trigger this process from GitHub pushes or GitHub actions through a webhook. Thus this project was born. On my servers, this service is running and allows for multiple projects to be setup to be triggered remotely.
+I wanted to trigger these process from GitHub pushes or GitHub actions through webhooks. Thus this project was born. This project allows for multiple powershell scripts to be triggered.
 
 ### Built With
 
@@ -72,7 +72,7 @@ I wanted to trigger this process from GitHub pushes or GitHub actions through a 
 
 1. Clone the repo
 2. Update the dependencies `npm i`
-3. Run the project `npm start` or `node .` if you want more control
+3. Run the project `npm start`
 
 ### Prerequisites
 
@@ -114,7 +114,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-License undecided
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/#)
 
 <!-- CONTACT -->
 
@@ -122,7 +122,7 @@ License undecided
 
 Daniel Ward - [@Me](http://danieljaward.com/#Contact)
 
-Project Link: [https://github.com/danielaj28/jaxtrax](https://github.com/danielaj28/jaxtrax)
+Project Link: [https://github.com/danielaj28/runner](https://github.com/danielaj28/runner)
 
 <!-- ACKNOWLEDGEMENTS -->
 
