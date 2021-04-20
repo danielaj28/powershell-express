@@ -1,4 +1,5 @@
 {
+  "port": 29990,
   "webhooks": {
     "secret1": "C:\\script\\path1.txt",
     "secret2": "C:\\script\\path2.txt",
