@@ -72,7 +72,9 @@ I wanted to trigger these process from GitHub pushes or GitHub actions through w
 
 1. Clone the repo
 2. Update the dependencies `npm i`
-3. Run the project `npm start`
+3. Create a config.json files from config.json.template
+4. Add webhooks and file paths to the config
+5. Run the project `npm start`
 
 ### Prerequisites
 

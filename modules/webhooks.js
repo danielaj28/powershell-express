@@ -18,20 +18,14 @@ module.exports.setup = function (app) {
   app.post("/webhook/:token", (req, res) => {
     console.log("Request received");
 
-    switch (req.params.token) {
-      case "pKgcNHuIAHnMg5lGeGxJvMTY1IRV0xkxNaWTVAqddyBLRcH1uP8U2zWDG8Z8vRcgTDuV1c674vz01MX7hPiR0t9HXDpmnC2l4eSz":
-        RunScript("c:\\temp\\pstest.ps1");
-        break;
-
-      default:
-        res.status(404).json("Webhook Not Found");
-        console.error("Access token was not recognised: ",req.params.token);
-        return;
+    if (app.config.webhooks[req.params.token] != undefined) {
+      RunScript(app.config.webhooks[req.params.token]);
+      res.status(200).json("Webhook Triggered");
+      console.log("Powershell passed");
+    } else {
+      res.status(404).json("Webhook Not Found");
+      console.error("Access token was not recognised: ", req.params.token);
     }
-
-    res.status(200).json("Webhook Triggered");
-
-    console.log("Powershell passed");
+    return;
   });
-  return;
 };

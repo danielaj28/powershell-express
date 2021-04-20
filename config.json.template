@@ -1,0 +1,7 @@
+{
+  "webhooks": {
+    "secret1": "C:\\script\\path1.txt",
+    "secret2": "C:\\script\\path2.txt",
+    "secret3": "C:\\script\\path3.txt"
+  }
+}
