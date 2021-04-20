@@ -32,7 +32,7 @@
   </a>
 -->
 
-  <h3 align="center">Runner</h3>
+  <h3 align="center">PowerShell-Express</h3>
 
   <p align="center">
     A quick way to setup an API for triggering Powershell Scripts remotely.
@@ -40,9 +40,9 @@
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>-->
     <br />
     ·
-    <a href="https://github.com/danielaj28/runner/issues">Report Bug</a>
+    <a href="https://github.com/danielaj28/powershell-express/issues">Report Bug</a>
     ·
-    <a href="https://github.com/danielaj28/runner/issues">Request Feature</a>
+    <a href="https://github.com/danielaj28/powershell-express/issues">Request Feature</a>
   </p>
 </p>
 
@@ -54,12 +54,12 @@
 
 As part of my journey on continuous integration, I had powershell scripts that:
 
-1. Pull from a git repo
+1. Pulled from git repos
 2. Updates dependencies
 3. Create docker images and containers
-4. Swaps out the live containers
+4. Swapsed out the live containers
 
-I wanted to trigger these process from GitHub pushes or GitHub actions through webhooks. Thus this project was born. This project allows for multiple powershell scripts to be triggered.
+I wanted to trigger these processes from GitHub pushes or GitHub actions through webhooks. Thus this project was born. This project allows for multiple powershell scripts to be triggered through an API call
 
 ### Built With
 
@@ -73,7 +73,7 @@ I wanted to trigger these process from GitHub pushes or GitHub actions through w
 1. Clone the repo
 2. Update the dependencies `npm i`
 3. Create a config.json files from config.json.template
-4. Add webhooks and file paths to the config
+4. Add keys and PowerShell file paths to the config
 5. Run the project `npm start`
 
 ### Prerequisites
@@ -98,7 +98,7 @@ Example of use cases:
 
 ## Roadmap
 
-See the [open issues](https://github.com/danielaj28/runner/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/danielaj28/powershell-express/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -124,7 +124,7 @@ Contributions are what make the open source community such an amazing place to b
 
 Daniel Ward - [@Me](http://danieljaward.com/#Contact)
 
-Project Link: [https://github.com/danielaj28/runner](https://github.com/danielaj28/runner)
+Project Link: [https://github.com/danielaj28/powershell-express](https://github.com/danielaj28/powershell-express)
 
 <!-- ACKNOWLEDGEMENTS -->
 

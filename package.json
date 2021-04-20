@@ -1,14 +1,14 @@
 {
-  "name": "runner",
+  "name": "powershell-express",
   "version": "1.0.0",
-  "description": "Runs things",
+  "description": "A quick way to setup an API for triggering Powershell Scripts remotely.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
   },
   "author": "Daniel Ward",
-  "license": "ISC",
+  "license": "GNU",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1"
