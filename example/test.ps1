@@ -1,0 +1,1 @@
+Set-Content -Path './example/content.txt' -Value 'test string'

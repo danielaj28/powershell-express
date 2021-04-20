@@ -4,7 +4,7 @@
   "description": "A quick way to setup an API for triggering Powershell Scripts remotely.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node ."
   },
   "author": "Daniel Ward",
@@ -12,5 +12,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }

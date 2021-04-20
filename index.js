@@ -24,4 +24,4 @@ webhooks.setup(app);
 
 //Begin
 const port = process.env.PORT || app.config.port || 29990;
-app.listen(port, () => console.log(`INFO Listening on ${port}...`));
+app.listen(port, () => console.log(`INFO Listening on ${port} ...`));
